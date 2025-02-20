@@ -1,0 +1,28 @@
+@import 'z/css/vars';
+
+@include tablet {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .itemContent {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+  }
+}

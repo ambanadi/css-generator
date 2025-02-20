@@ -1,0 +1,16 @@
+@import 'z/css/vars';
+
+.section {
+  background-color: $white-ter;
+  min-height: 100vh;
+}
+
+.link {
+  background-color: $link;
+  border-radius: $radius-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
